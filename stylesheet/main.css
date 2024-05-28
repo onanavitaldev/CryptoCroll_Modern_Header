@@ -1,0 +1,42 @@
+/*
+    By ONANA vital
+    With SCSS
+*/
+*::-moz-selection {
+  background-color: #000;
+  color: #fff;
+}
+*::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Variables */
+:root {
+  --font: Figtree, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font);
+  overflow: hidden;
+  background-image: url("../assets/img/img.jpg");
+  background-size: cover;
+}
+
+main section {
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(12px);
+}
+main section #text h2 {
+  animation: zoomIn 1s;
+}
+main section #text a {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+}
+main section #text a:hover {
+  background-color: #000;
+}/*# sourceMappingURL=main.css.map */
